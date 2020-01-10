@@ -5,7 +5,7 @@ from django.shortcuts import render
 from . import models
 
 
-BASE_CRAIGSLIST_URL = 'https://belgium.craigslist.org/search/?query={}'
+BASE_CRAIGSLIST_URL = 'https://sfbay.craigslist.org/search/?query={}'
 BASE_IMAGE_URL = 'https://images.craigslist.org/{}_300x300.jpg'
 
 def home(request):
